@@ -10,7 +10,7 @@
         <link rel="stylesheet" href="stylesindex.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200&display=swap" rel="stylesheet">
+       
         <title>Encriptador</title>
     </head>
     <body>
@@ -18,7 +18,7 @@
             <img class="logo" src="/Logo.png" alt="logo de alura" >
         </header>
         <main>
-            <section>
+            <section class="input">
                 <textarea class="text-area" cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea>
                 <div>
                     <h6 class="informacion">Solo letras minuscúlas y sin acento </h6>
@@ -40,9 +40,17 @@
             </section>
     </main>
     <footer>
-        <p class="rodapie">Daniel Eduardo Olano Calderón</p>
+        <p class="rodapie">Daniel Eduardo Olano Calderón<br>daniel.030211@gmail.com</p> 
+        <ul class="social">
+            <li><a href="https://github.com/daeduol"><ion-icon class="bg-transparent" name="logo-github"></ion-icon></a></li>
+            <li><a href="https://www.linkedin.com/in/daniel-eduardo-olano-calder%C3%B3n-6630401b1/"><ion-icon class="bg-transparent" name="logo-linkedin"></ion-icon></a></li>
+            <li><a href="https://twitter.com/Daeduol"><ion-icon class="bg-transparent" name="logo-twitter"></ion-icon></a></li>
+        </ul>
+        <p class="autoria">copyright &copy;2023 Alura. designed by <span>Daniel Olano</span></p>
     </footer>
-    <script src="/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="/script.js" ></script>
     </body>
 
 </html>

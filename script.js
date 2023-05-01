@@ -1,6 +1,7 @@
 const textArea = document.querySelector(".text-area");
 const mensaje = document.querySelector(".mensaje");
-
+const noMensaje = document.querySelector(".no-mensaje");
+const ingresar = document.querySelector(".ingresar");
 
 //La letra "e" es convertida para "enter"
 //La letra "i" es convertida para "imes"
@@ -20,7 +21,10 @@ function btnEncriptar(){
     const textoEncriotado = encriptar(textArea.value)
     mensaje.value = textoEncriotado
     textArea.value = "";
-    mensaje.style.backgroundImage = "none"
+    noMensaje.style.display = "none";
+    ingresar.style.display = "none";
+    mensaje.style.backgroundImage = "none";
+    
 }
 function encriptar(stringEncriptado){
     let matrizcode = [["e", "enter"], ["i", "imes"], ["a", "ai"], ["o", "ober"], ["u", "ufat"]];
@@ -36,7 +40,9 @@ function btnDesencriptar(){
     const textoDesencriptado = desencriptar(textArea.value)
     mensaje.value = textoDesencriptado
     textArea.value = "";
-   // mensaje.style.backgroundImage = "none"
+    noMensaje.style.display = "none";
+    ingresar.style.display = "none";
+    mensaje.style.backgroundImage = "none"
 }
 function desencriptar(stringDesencriptado){
     let matrizcode = [["enter", "e"], ["imes", "i"], ["ai", "a"], ["ober", "o"], ["ufat", "u"]];
