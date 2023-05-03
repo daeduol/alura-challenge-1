@@ -47,7 +47,7 @@ main{
     }
     .mensaje{
         background: white;
-        background-image: url("/Muñeco.png");
+        background-image: url("Muñeco.png");
         background-repeat: no-repeat;
         background-position: center top;
         border: none;
@@ -145,7 +145,7 @@ main{
     color: #495057;
     font-size: 12px;
     margin-top: 13%;
-    list-style-image: url("/Vector.png");
+    list-style-image: url("Vector.png");
     list-style-type: none;
     padding-left: 20px; 
 }
