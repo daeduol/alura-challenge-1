@@ -105,7 +105,7 @@ main{
     align-items: center;
     justify-content: center;
 }
-.btn-encriptador:hover{
+.btn-encriptador:hover .btn-encriptador:focus{
 
     transition-duration: 0.4s;
     border-color:#0a3871;
@@ -117,7 +117,7 @@ main{
     background-color: #d8dfe8;
     transform: translateY(4px);
 }  
-.btn-desencriptador:hover{
+.btn-desencriptador:hover .btn-desencriptador:focus{
 
     transition-duration: 0.4s;
     border-color:#0a3871;
@@ -129,7 +129,7 @@ main{
     background-color: #0a3871;
     transform: translateY(4px);
 }
-.btn-copiar:hover{
+.btn-copiar:hover .btn-copiar:focus{
 
     transition-duration: 0.4s;
     border-color:#0a3871;
